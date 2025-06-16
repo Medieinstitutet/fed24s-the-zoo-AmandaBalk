@@ -1,10 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
+import { router } from './Router.tsx'
+import { RouterProvider } from 'react-router-dom'
+import { AnimalsProvider } from './context/AnimalContext.tsx'
+import './index.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <AnimalsProvider>
+    <RouterProvider router={router}/>
+    </AnimalsProvider>
   </StrictMode>,
 )
