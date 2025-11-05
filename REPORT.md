@@ -71,7 +71,7 @@ Ha roligt, skratta och lär er massor!
 
 
 ## 🏆 **Betyg: VG**
-📌 **Motivering:** Koden uppfyller alla krav för både G och VG som beskrivs i uppgiften. Den använder en router med olika sidor, implementerar context och reducers för att hantera tillstånd och status på djuren. Bildfel hanteras korrekt och subtila animationer används för bättre användarupplevelse.
+📌 **Motivering:** Koden uppfyller alla krav för både G och VG, med korrekt användning av routing, styling med Tailwind, hantering av bildfel med custom hooks, och användning av reducers för state management.
 
 💡 **Förbättringsförslag:**  
-Koden är överlag välstrukturerad och tydlig. Möjliga förbättringar kan inkludera bättre hantering av fel under datahämtning från API (just nu verkar det inte finnas någon felhantering för fetch i useEffect) och ytterligare enhetstester för att säkerställa att komponenter fungerar som förväntat.
+Dokumentationen kan förstärkas och detaljer om komponenters interaktioner kan göras mer omfattande. Testfall eller valideringsmekanismer för användarinteraktionspunkterna kunde förbättras för att säkerställa robust logik i hela applikationen.
