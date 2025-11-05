@@ -70,8 +70,8 @@ Ha roligt, skratta och lär er massor!
 ## 🔍 ESLint-varningar:
 
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Koden uppfyller alla krav för både G och VG, med korrekt användning av routing, styling med Tailwind, hantering av bildfel med custom hooks, och användning av reducers för state management.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Koden uppfyller alla krav för betyg G. Projektet visar väl genomförda implementeringar av routing med rätt användning av layouts och error-element, användandet av context för komponentkommunikation och korrekt hantering av trasiga bild-länkar. En annan stylingmetod än ren CSS används också i form av Tailwind.
 
 💡 **Förbättringsförslag:**  
-Dokumentationen kan förstärkas och detaljer om komponenters interaktioner kan göras mer omfattande. Testfall eller valideringsmekanismer för användarinteraktionspunkterna kunde förbättras för att säkerställa robust logik i hela applikationen.
+För att uppgradera till betyget VG, bör studenten överväga att applicera användningen av custom hooks eller tjänster för datahämtning, reducera state-hantering, och implementera subtila animeringar vid sidladdningar och route-förändringar, utöver knappklickar.
