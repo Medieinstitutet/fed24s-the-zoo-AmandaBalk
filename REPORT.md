@@ -1,7 +1,6 @@
 # 📌 Rättningsrapport – fed24s-the-zoo-AmandaBalk
 
 ## 🎯 Uppgiftens Krav:
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/xBUCHFwF)
 # The Zoo
 
 I denna inlämningsuppgift kommer ni att bygga ett zoo. Zoo:t har ett antal djur som kommer behöva matas. 
@@ -66,12 +65,11 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 
 Ha roligt, skratta och lär er massor!
 
-
 ## 🔍 ESLint-varningar:
 
 
 ## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller både kraven för betyg G och VG. Koden använder en router för att visa olika sidor, där layouts, child-routes och error-element är korrekt implementerade【4:0†Router.tsx.txt】. En översiktssida för djuren finns, och användaren kan klicka på ett djur för mer information【4:4†Animals.tsx.txt】. Matningsfunktionaliteten fungerar som specificerat, och tiderna hanteras korrekt med reducer och context istället för state【4:3†AnimalContext.tsx.txt】. Trasiga bildlänkar hanteras, Tailwind CSS används för styling【4:10†index.css】, och subtila animeringar finns vid knapptryckningar【4:5†SelectedAnimal.tsx.txt】. Data hämtas via kontextualisering och användningen av användarkontext är exemplarisk【4:3†AnimalContext.tsx.txt】.
+📌 **Motivering:** Projektet uppfyller alla krav för betyg G och VG. En router används effektivt för att visa och navigera mellan olika sidor i applikationen【4:7†Router.tsx.txt】, och child-routes är korrekt implementerade. Applikationen har en väl fungerande översiktssida för djuren där länkar leder till detaljerade sidor för varje djur【4:4†Animals.tsx.txt】. Matningsfunktionen sparar tiden korrekt när ett djur matas【4:0†SelectedAnimal.tsx.txt】. Trasiga bildlänkar hanteras via en custom hook【4:0†SelectedAnimal.tsx.txt】. TailwindCSS används för styling, vilket uppfyller kravet att använda en teknik utöver ren CSS【4:9†index.css】. Applikationen implementerar datahämtning via en reducer, som också hanterar djurens tillstånd【4:2†AnimalContext.tsx.txt】. Kommunikation mellan komponenter sker genom useContext【4:2†AnimalContext.tsx.txt】. Animationer och övergångar finns vid knapptryckningar och sidladdningar【4:0†SelectedAnimal.tsx.txt】【4:4†Animals.tsx.txt】.
 
 💡 **Förbättringsförslag:**  
-Inga större förbättringar behövs, men det kan vara värdefullt att lägga till mer kommentarer i koden för att underlätta för framtida underhåll och potentiella förbättringar av projektet.
+Inga större förbättringar behövs. Eventuellt kan en mer omfattande felhantering integreras för att hantera flera olika typer av potentiella API-fel.
