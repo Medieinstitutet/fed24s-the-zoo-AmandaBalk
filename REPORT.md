@@ -69,7 +69,13 @@ Ha roligt, skratta och lär er massor!
 
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyg G, inklusive korrekt routing, djurhantering och hantering av trasiga bildlänkar. Kodstrukturen är välorganiserad och följer konventioner. För att uppnå VG krävs implementering av avancerade tekniker som context, custom hooks/tjänster, och reducers, samt förbättringar i användarupplevelse och kodkvalitet.
+📌 **Motivering:** Projektet uppfyller de grundläggande kraven för betyg G. Koden är strukturerad och implementerar de nödvändiga funktionerna som en router för att visa olika sidor, korrekt hantering av trasiga bildlänkar, och möjligheten att mata djur och spara tiden. Dock saknas flera av de mer avancerade kraven för betyg VG, såsom användning av context, reducers och subtila animeringar.
 
 💡 **Förbättringsförslag:**  
-Förbättra kodens läsbarhet genom att lägga till fler kommentarer, reducera kodupprepningar och optimera bildhanteringen för bättre prestanda. Implementera datahämtning med tjänster eller en custom hook, använd context för komponentkommunikation, och hantera djur med reducers. Lägg till subtila animeringar vid interaktioner och sidladdningar för en bättre användarupplevelse.
+För att förbättra projektet och nå betyget VG, rekommenderas följande åtgärder: 
+1. Implementera context API för att hantera delad state mellan komponenter istället för att använda props. 
+2. Använd reducers för att hantera djurens state, vilket kan ge en mer strukturerad och skalbar kodbas. 
+3. Implementera subtila animeringar vid klick på knappar och vid route-förändringar för att förbättra användarupplevelsen. 
+4. Använd en custom hook eller tjänster för att hämta data, vilket kan förbättra kodens återanvändbarhet och separation av logik. 
+5. Förbättra felhanteringen genom att lägga till mer omfattande error handling, särskilt vid nätverksförfrågningar. 
+6. Se över kodens läsbarhet och kommentera där det behövs för att underlätta förståelsen för andra utvecklare.
