@@ -68,8 +68,8 @@ Ha roligt, skratta och lär er massor!
 ## 🔍 ESLint-varningar:
 
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller alla krav för betyg G och VG. En router används effektivt för att visa och navigera mellan olika sidor i applikationen【4:7†Router.tsx.txt】, och child-routes är korrekt implementerade. Applikationen har en väl fungerande översiktssida för djuren där länkar leder till detaljerade sidor för varje djur【4:4†Animals.tsx.txt】. Matningsfunktionen sparar tiden korrekt när ett djur matas【4:0†SelectedAnimal.tsx.txt】. Trasiga bildlänkar hanteras via en custom hook【4:0†SelectedAnimal.tsx.txt】. TailwindCSS används för styling, vilket uppfyller kravet att använda en teknik utöver ren CSS【4:9†index.css】. Applikationen implementerar datahämtning via en reducer, som också hanterar djurens tillstånd【4:2†AnimalContext.tsx.txt】. Kommunikation mellan komponenter sker genom useContext【4:2†AnimalContext.tsx.txt】. Animationer och övergångar finns vid knapptryckningar och sidladdningar【4:0†SelectedAnimal.tsx.txt】【4:4†Animals.tsx.txt】.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Koden uppfyller alla grundläggande krav för betyg G. Projektet använder en router för att visa olika sidor och hanterar trasiga bildlänkar korrekt. Det finns en översiktssida för djuren och en djur-detaljsida där man kan mata djuren och spara tiden. Styling är implementerad med en annan teknik än ren CSS, vilket uppfyller kraven. För att uppnå VG krävs implementering av mer avancerade tekniker som context och reducers för state-hantering samt subtila animeringar.
 
 💡 **Förbättringsförslag:**  
-Inga större förbättringar behövs. Eventuellt kan en mer omfattande felhantering integreras för att hantera flera olika typer av potentiella API-fel.
+För att nå betyg VG, implementera datahämtning med hjälp av tjänster eller en custom hook, använd context istället för props för komponentkommunikation, och använd reducers istället för state för djurhantering. Lägg till subtila animeringar vid användarinteraktioner och förbättra kodstrukturen genom att säkerställa modulär uppdelning av komponenter och strikt följande av naming conventions. Förbättra error handling genom att lägga till mer robusta mekanismer för att hantera API-fel.
