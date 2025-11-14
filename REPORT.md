@@ -69,7 +69,7 @@ Ha roligt, skratta och lär er massor!
 
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Koden uppfyller alla grundläggande krav för betyg G. Projektet använder en router för att visa olika sidor och hanterar trasiga bildlänkar korrekt. Det finns en översiktssida för djuren och en djur-detaljsida där man kan mata djuren och spara tiden. Styling är implementerad med en annan teknik än ren CSS, vilket uppfyller kraven. För att uppnå VG krävs implementering av mer avancerade tekniker som context och reducers för state-hantering samt subtila animeringar.
+📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyget G. Det använder en router för att navigera mellan sidor, hanterar trasiga bildlänkar korrekt och implementerar en översiktssida för djuren. Dock saknas vissa avancerade funktioner och förbättringar som krävs för VG-nivå, såsom användning av context och reducers samt subtila animeringar.
 
 💡 **Förbättringsförslag:**  
-För att nå betyg VG, implementera datahämtning med hjälp av tjänster eller en custom hook, använd context istället för props för komponentkommunikation, och använd reducers istället för state för djurhantering. Lägg till subtila animeringar vid användarinteraktioner och förbättra kodstrukturen genom att säkerställa modulär uppdelning av komponenter och strikt följande av naming conventions. Förbättra error handling genom att lägga till mer robusta mekanismer för att hantera API-fel.
+För att nå VG-nivå bör projektet använda context istället för props för komponentkommunikation, implementera reducers för djurhantering och inkludera subtila animeringar vid interaktioner. Dessutom kan kodstrukturen förbättras genom att säkerställa att alla komponenter är tydligt avgränsade och att naming conventions konsekvent följs.
