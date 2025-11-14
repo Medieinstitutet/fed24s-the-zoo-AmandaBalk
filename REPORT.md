@@ -69,7 +69,7 @@ Ha roligt, skratta och lär er massor!
 
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyget G. Det använder en router för att navigera mellan sidor, hanterar trasiga bildlänkar korrekt och implementerar en översiktssida för djuren. Dock saknas vissa avancerade funktioner och förbättringar som krävs för VG-nivå, såsom användning av context och reducers samt subtila animeringar.
+📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyg G, inklusive korrekt routing, djurhantering och hantering av trasiga bildlänkar. Kodstrukturen är välorganiserad och följer konventioner. För att uppnå VG krävs implementering av avancerade tekniker som context, custom hooks/tjänster, och reducers, samt förbättringar i användarupplevelse och kodkvalitet.
 
 💡 **Förbättringsförslag:**  
-För att nå VG-nivå bör projektet använda context istället för props för komponentkommunikation, implementera reducers för djurhantering och inkludera subtila animeringar vid interaktioner. Dessutom kan kodstrukturen förbättras genom att säkerställa att alla komponenter är tydligt avgränsade och att naming conventions konsekvent följs.
+Förbättra kodens läsbarhet genom att lägga till fler kommentarer, reducera kodupprepningar och optimera bildhanteringen för bättre prestanda. Implementera datahämtning med tjänster eller en custom hook, använd context för komponentkommunikation, och hantera djur med reducers. Lägg till subtila animeringar vid interaktioner och sidladdningar för en bättre användarupplevelse.
